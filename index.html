@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Github finder</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark indigo bg-primary mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand brand-logo center">Github Finder</a>
+        </div>
+    </nav>
+    <div class="container searchContainer">
+        <div class="search card card-body">
+            <div class="card-content">
+                <h1>Search Github users</h1>
+                <p class="lead">Enter a username to find a user profile and repositories</p>
+                <div class="input-field">
+                    <input type="text" id="searchUser" class="form-control input-field" placeholder="Github username">
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <div id="profile"></div>
+    </div>
+
+    <footer class="center-align indigo white-text">Github finder &copy</footer>
+    <!-- scripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
