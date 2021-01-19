@@ -1,4 +1,4 @@
-# GitHubUsersFinder 🔍
+# [GitHubUsersFinder](https://github-finder-live.netlify.app/) 🔍
 Simple page to search github users and their repositories
 
 ### Uses:
