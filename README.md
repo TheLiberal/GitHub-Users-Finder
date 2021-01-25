@@ -1,7 +1,9 @@
 # [GitHubUsersFinder](https://github-finder-live.netlify.app/) 🔍
 Simple page to search github users and their repositories
 
-### Uses:
+<img src="./github-finder-preview" width=30%>
+
+### Key Elements
 - [Materialize.css](https://materializecss.com/)
 - [GitHub API](https://developer.github.com/v3/)
 - **Fetch API**
